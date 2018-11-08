@@ -1,0 +1,242 @@
+[
+    {
+       "question": {
+          "id": 268,
+          "user_id": 16,
+          "question": " Find out which part (a, b, c and d) of the following sentence has an error. When planning workplace policies, it is necessary that a manager considers the politics of the civilization, such as how decisions are made and who make them. ",
+          "solution": "মনে রাখবেন It is necessary that, It is essential that, it is compulsory that ইত্যাদি শব্দগুচ্ছের পরে Verb এর Base form হিসেবে Consider, go , do ইত্যাদি বসে । এসব ক্ষেত্রে কখনই Verb এর সাথে ‘s’ বা ‘es’ যোগ হবে না । সঠিক বাক্যঃ When planning workplace policies, it is necessary that a manager consider the politics of the civilization, such as how decisions are made and who make them. সঠিক বাক্যের অর্থঃ কর্মক্ষেত্রে নীতিমালা প্রণয়ণের সময় একজন ম্যানেজারের জন্য সভ্যতার রাজনীতিকে বিবেচনায় আনা জরুরি, যেমন কীভাবে সিদ্ধান্তগুলো তৈরি হয় এবং কারা সেগুলো তৈরি করে ।",
+          "meta": " Book: Private Bank Recruitment Guide,Writer: Mohammad Arifur Rahman,Edition/Print: 9th Edition,Operator1: Md. Samsul Arafin,DataPacket: 014,Error Finding,Old TOEFL Based ",
+          "tags": null,
+          "extra": "added a comment",
+          "number": "০৭.",
+          "created_at": "2018-01-27T04:46:12.000Z",
+          "updated_at": "2018-01-27T04:46:12.000Z"
+       },
+       "answers": [
+          {
+             "id": 1170,
+             "question_id": 268,
+             "is_correct": 0,
+             "answer": " a) Planning "
+          },
+          {
+             "id": 1171,
+             "question_id": 268,
+             "is_correct": 1,
+             "answer": " b) Considers "
+          },
+          {
+             "id": 1172,
+             "question_id": 268,
+             "is_correct": 0,
+             "answer": " c) How "
+          },
+          {
+             "id": 1173,
+             "question_id": 268,
+             "is_correct": 0,
+             "answer": " d) Them "
+          }
+       ]
+    },
+    {
+       "question": {
+          "id": 269,
+          "user_id": 16,
+          "question": "Find out which part (a, b, c and d) of the following sentence has an error. Swimming is becoming the sport of choice because it not only tones every muscle in the body, it also request fewer equipment than skiing, cycling, or running.",
+          "solution": "S: বাক্যটির কমা (,) এর পরের অংশের Subject হলো it. আর এটি 3rd Person singular number তাই অপশন c) তে Request শব্দটি ভুল আছে । কারণ Subject যদি 3rd Person singular number হয় তবে Verb এর সাথে ‘s’ বা ‘es’ যোগ হবে । কিন্তু Request এর Verb এর সাথে ‘s’ যুক্ত হয়নি । তাই Request এর পরিবর্তে Requires হবে । সঠিক বাক্যঃ Swimming is becoming the sport of choice because it not only tones every muscle in the body, it also requires fewer equipment than skiing, cycling, or running. সঠিক বাক্যের অর্থঃ সাঁতার কাটা একটি পছন্দের খেলা হয়ে দাঁড়াচ্ছে, কারণ এটি শুধুমাত্র দেহের প্রত্যেকটি মাংসপেশীকে দৃঢ় ও শক্তিশালীই করে না, বরং এটার জন্য স্কি, সাইক্লিং কিংবা দৌঁড়ানোর চেয়ে কম সংখ্যক সরঞ্জামের দরকার পড়ে ।",
+          "meta": "Book: Private Bank Recruitment Guide,Writer: Mohammad Arifur Rahman,Edition/Print: 9th Edition,Operator1: Md. Samsul Arafin,DataPacket: 014,Error Finding,Old TOEFL Based",
+          "tags": null,
+          "extra": null,
+          "number": "08.",
+          "created_at": "2018-01-27T04:48:42.000Z",
+          "updated_at": "2018-01-27T04:48:42.000Z"
+       },
+       "answers": [
+          {
+             "id": 1174,
+             "question_id": 269,
+             "is_correct": 0,
+             "answer": "a) Is becoming"
+          },
+          {
+             "id": 1175,
+             "question_id": 269,
+             "is_correct": 0,
+             "answer": "b) Because"
+          },
+          {
+             "id": 1176,
+             "question_id": 269,
+             "is_correct": 1,
+             "answer": "c) Request"
+          },
+          {
+             "id": 1177,
+             "question_id": 269,
+             "is_correct": 0,
+             "answer": "d) Fewer"
+          }
+       ]
+    },
+    {
+       "question": {
+          "id": 270,
+          "user_id": 16,
+          "question": "Choose the word or phrase that best completes the sentence. A female leopard is an extremely good hunter, and………..",
+          "solution": "বাক্যটির শুরুর অংশের সাথে and এর পরের অংশ একই ভাব প্রকাশ করবে । আর এই একই ভাব প্রকাশ করার জন্য So বসে । এ কারণে অপশন a) এবং c) বাদ যাবে । আর Lioness এর সাথে ‘be’ verb হিসেবে ‘is’ বসে বলে অপশন d) এর so be a lioness না হয়ে উত্তর হবে অপশন b) এর so is a lioness. সঠিক বাক্যঃ A female leopard is an extremely good hunter, and so is a lioness. সঠিক বাক্যের অর্থঃ একটি স্ত্রী চিতাবাঘ ভীষণ রকম ভালো শিকারী এবং একটি স্ত্রী সিংহও তাই।",
+          "meta": "Book: Private Bank Recruitment Guide,Writer: Mohammad Arifur Rahman,Edition/Print: 9th Edition,Operator1: Md. Samsul Arafin,DataPacket: 014,Fill In the Blank Grammar,Grammar Based",
+          "tags": null,
+          "extra": null,
+          "number": "09.",
+          "created_at": "2018-01-27T08:48:38.000Z",
+          "updated_at": "2018-01-27T08:48:38.000Z"
+       },
+       "answers": [
+          {
+             "id": 1178,
+             "question_id": 270,
+             "is_correct": 0,
+             "answer": "a) a lioness is"
+          },
+          {
+             "id": 1179,
+             "question_id": 270,
+             "is_correct": 1,
+             "answer": "b) so is a lioness"
+          },
+          {
+             "id": 1180,
+             "question_id": 270,
+             "is_correct": 0,
+             "answer": "c) does a lioness"
+          },
+          {
+             "id": 1181,
+             "question_id": 270,
+             "is_correct": 0,
+             "answer": "d) so be a lioness"
+          }
+       ]
+    },
+    {
+       "question": {
+          "id": 271,
+          "user_id": 16,
+          "question": "Choose the word or phrase that best completes the sentence. ………………. Of the three primary colors of light, it is possible to produce all other colors.",
+          "solution": "S: বাক্যটির শেষ অংশে বলা হয়েছে It is possible to produce all other colors. আর এটি সম্ভব হবে Light এর তিনটি মৌলিক বর্ণের Light Source গুলোকে একত্র করার মাধ্যমে । তাই প্রশ্নের বাক্যের প্রথমাংশে অপশন c) এর Combining the light sources শূন্যস্থানে বসালে বাক্যটি সঠিক অর্থ প্রকাশ করবে। সঠিক বাক্যঃ Combining the light sources of the three primary colors of light, it is possible to produce all other colors. সঠিক বাক্যের অর্থঃ আলোর মৌলিক তিনটি বর্ণের উৎসাহ সমূহকে একত্রিত করে অন্য সকল রং তৈরি করা সম্ভব ।",
+          "meta": "Book: Private Bank Recruitment Guide,Writer: Mohammad Arifur Rahman,Edition/Print: 9th Edition,Operator1: Md. Samsul Arafin,DataPacket: 014,Fill In the Blank Grammar,Grammar Based",
+          "tags": null,
+          "extra": null,
+          "number": "10.",
+          "created_at": "2018-01-27T08:50:34.000Z",
+          "updated_at": "2018-01-27T08:50:34.000Z"
+       },
+       "answers": [
+          {
+             "id": 1182,
+             "question_id": 271,
+             "is_correct": 0,
+             "answer": "a) Combine the light sources"
+          },
+          {
+             "id": 1183,
+             "question_id": 271,
+             "is_correct": 0,
+             "answer": "b) The light sources combining"
+          },
+          {
+             "id": 1184,
+             "question_id": 271,
+             "is_correct": 1,
+             "answer": "c) Combining the light sources"
+          },
+          {
+             "id": 1185,
+             "question_id": 271,
+             "is_correct": 0,
+             "answer": "d) It is combining the light sources"
+          }
+       ]
+    },
+    {
+       "question": {
+          "id": 272,
+          "user_id": 16,
+          "question": "Choose the word or phrase that best completes the sentence. Recent linguistic research has shed light on the role played by …………. Regardless of their gender.",
+          "solution": "বাক্যটিতে একটি বিশেষ ধরনের Pattern এর কথা বলা হয়েছে । আর এ ধরনের Pattern কে By the way দ্বারা প্রকাশ করা যায় – যা অপশন a) তে আছে । সঠিক বাক্যঃ Recent linguistic research has shed light on the role played by the way people speak regardless of their gender. সঠিক বাক্যের অর্থঃ নারী-পুরুষ নির্বিশেষে মানুষ যেভাবে কথা বলে তার ভূমিকার উপর সাম্প্রতিক ভাষাতাত্ত্বিক গবেষণা আলোকপাত করেছে ।",
+          "meta": "Book: Private Bank Recruitment Guide,Writer: Mohammad Arifur Rahman,Edition/Print: 9th Edition,Operator1: Md. Samsul Arafin,DataPacket: 014,Fill In the Blank Grammar,Grammar Based",
+          "tags": null,
+          "extra": null,
+          "number": "11.",
+          "created_at": "2018-01-27T08:51:52.000Z",
+          "updated_at": "2018-01-27T08:51:52.000Z"
+       },
+       "answers": [
+          {
+             "id": 1186,
+             "question_id": 272,
+             "is_correct": 1,
+             "answer": "a) the way people speak"
+          },
+          {
+             "id": 1187,
+             "question_id": 272,
+             "is_correct": 0,
+             "answer": "b) how people were spoken"
+          },
+          {
+             "id": 1188,
+             "question_id": 272,
+             "is_correct": 0,
+             "answer": "c) how do people speak"
+          },
+          {
+             "id": 1189,
+             "question_id": 272,
+             "is_correct": 0,
+             "answer": "d) people are speaking"
+          }
+       ]
+    },
+    {
+       "question": {
+          "id": 273,
+          "user_id": 16,
+          "question": "In each of the following questions, a related pair of word is followed by four lettered pairs of word. Select the lettered pair that best expresses a relationship similar to that expressed in the original pair. REQUEST : COMMAND",
+          "solution": "Request - অনুরোধ করা\tCommand – আদেশ করা Propose – প্রস্তাব করা\tStipulate – জোর দিয়ে বলা Enlist – তালিকাবদ্ধ করা\tSupport – সমর্থন করা Relegate – কাউকে নিম্ন পদে নামিয়ে দেয়া\tConsign – কোন কিছু কারো কাছে পাঠানো Volunteer – স্বেচ্ছাসেবক\tAccept – গ্রহণ করতে সম্মত হওয়া Request এর বিপরীতে Command এর সম্পর্ক যেমন, ঠিক তেমনি Command এর বিপরতে Stipulate এর সম্পর্ক ।",
+          "meta": "Book: Private Bank Recruitment Guide,Writer: Mohammad Arifur Rahman,Edition/Print: 9th Edition,Operator1: Md. Samsul Arafin,DataPacket: 014,Analogy",
+          "tags": null,
+          "extra": null,
+          "number": "12.",
+          "created_at": "2018-01-27T08:54:44.000Z",
+          "updated_at": "2018-01-27T08:54:44.000Z"
+       },
+       "answers": [
+          {
+             "id": 1190,
+             "question_id": 273,
+             "is_correct": 1,
+             "answer": "a) propose : stipulate"
+          },
+          {
+             "id": 1191,
+             "question_id": 273,
+             "is_correct": 0,
+             "answer": "b) enlist : support"
+          },
+          {
+             "id": 1192,
+             "question_id": 273,
+             "is_correct": 0,
+             "answer": "c) relegate : consign"
+          },
+          {
+             "id": 1193,
+             "question_id": 273,
+             "is_correct": 0,
+             "answer": "d) volunteer : accept"
+          }
+       ]
+    }
+ ]
