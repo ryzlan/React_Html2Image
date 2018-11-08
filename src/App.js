@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import 'react-awesome-button/dist/styles.css';
 
-import { AwesomeButton } from 'react-awesome-button';
+
 import jsondata from './data/data.json';
 import ShowData  from './component/ShowData';
 import domtoimage from 'dom-to-image';
