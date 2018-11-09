@@ -8,7 +8,7 @@ class OptionsList extends Component {
         return (
             <li key={id} className="">
                 <p className="option">
-                    {answer}
+                   <span>{answer}</span> 
                 </p>
                 
             </li>

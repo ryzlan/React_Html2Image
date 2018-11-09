@@ -19,7 +19,6 @@ class App extends Component {
   }
    canvasConverter=(node)=>{
     return new Promise((resolve , reject) =>{
-        
         domtoimage.toPng(node)
             .then(function(dataUrl){
                 return resolve(dataUrl) ;

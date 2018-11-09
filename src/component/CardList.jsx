@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 import OptionsList from './OptionsList';
 
 class CardList extends Component {
@@ -10,16 +9,15 @@ class CardList extends Component {
          
         return (
             <div className="col-6 col-md-4 row-eq-height bg-card">
-            <div id={id} ref={id} className="card cards" >
-
-            <div className="card-body question">
-              <p className="card-text questions">
-               {question}
-              </p>
+              <div id={id} ref={id} className="card cards" >
               
-            </div>
-            <OptionsList  answers={this.props.data.answers}/>
-          </div>
+              <div className="card-body question">
+                <p className="card-text questions">
+                {question}
+                </p>
+              </div>
+              <OptionsList  answers={this.props.data.answers}/>
+              </div>
           </div>
         );
     }

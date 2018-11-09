@@ -13,10 +13,16 @@ body ,.bg{
   background-color: #00A3FE !important;
   border-radius: 12px !important;
   color:#fff !important;
-  font-size: 13px ;
-  border: 2px solid rgba(0,0,0,.1) !important ;
+  font-size: 14px ;
+  transform-style: preserve-3d !important;
+  transition: all 0.8 ease !important;
+
   
 }
+.cards:hover{
+  box-shadow: 2px 2px 2px 2px #53a7ea;
+}
+
 
 .card-body{
   padding: 10px !important;
@@ -27,19 +33,27 @@ body ,.bg{
 .options{
   height: 150px;
   padding:10px;
+  margin-bottom: 0px;
 }
 .options > li{
   list-style:none;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .option{
-  font-size: 11px;
+  margin-bottom: 10px;
+}
+.option > span{
+  
+  font-size: 12px;
+  padding: 5px;
   background-color: #0491F3;
   border-radius: 10px;
-  border: 1px solid #0491F3;
-  padding: 5px;
-  margin-bottom: 0px;
+  
+}
+.option >span:hover{
+  box-shadow: 2px 1px #aaa;
+
 }
 
 .block {
@@ -65,3 +79,4 @@ transform: translateX(-5px);
 .icons{
   color:white;
 }
+
