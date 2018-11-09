@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/React_Html2Image/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "f6408c135b76c18265a4",
-    "url": "/React_Html2Image/static/css/main.6b5ab4c0.chunk.css"
+    "revision": "fe07c05fda45824b7e75",
+    "url": "/React_Html2Image/static/css/main.787020d8.chunk.css"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/React_Html2Image/static/js/runtime~main.f0910f96.js"
   },
   {
-    "revision": "f6408c135b76c18265a4",
-    "url": "/React_Html2Image/static/js/main.f6408c13.chunk.js"
+    "revision": "fe07c05fda45824b7e75",
+    "url": "/React_Html2Image/static/js/main.fe07c05f.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/React_Html2Image/static/css/1.bfdd4601.chunk.css"
   },
   {
-    "revision": "fb7165c73e1a87bd815640e6f4412551",
+    "revision": "adc9a8216dfec984fd2cd82be2655d7b",
     "url": "/React_Html2Image/index.html"
   }
 ];
