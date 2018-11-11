@@ -13,7 +13,7 @@ class ShowData extends Component {
     render() { 
         const renderdata = this.props.datas.map(this.CreateList);
         return (
-        <div className="row row-eq-height">
+        <div className="Aligner">
 
         {renderdata}
         

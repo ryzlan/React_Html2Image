@@ -7,19 +7,31 @@ import 'react-awesome-button/dist/styles.css';
 
 import jsondata from './data/data.json';
 import ShowData  from './component/ShowData';
+import Loading from './component/Loading';
+
+
 import domtoimage from 'dom-to-image';
 import download from 'downloadjs';
+
 
 
 class App extends Component {
 
   state={
+    loading:false,
     flag:false,
-    error:''
+    error:'', 
+    data:[]
   }
+  componentDidMount(){
+    this.setState({
+      data:jsondata
+    })
+  }
+
    canvasConverter=(node)=>{
     return new Promise((resolve , reject) =>{
-        domtoimage.toPng(node)
+        domtoimage.toSvg(node)
             .then(function(dataUrl){
                 return resolve(dataUrl) ;
             })
@@ -31,8 +43,11 @@ class App extends Component {
 
 
   renderConverter=()=>{
+    // this.setState({
+    //   loading:true
+    // })
     let arr = [];
-    jsondata.forEach(element => {
+    this.state.data.forEach(element => {
       arr.push(element.question.id);
     });
 
@@ -53,9 +68,12 @@ class App extends Component {
     .then((data)=>{
         
         for (let i = 0; i < data.length; i++) {
-           var filename = "image"+i+".png" ; 
+           var filename = "image"+i+".svg" ; 
             download(data[i] , filename);
         }
+
+       return ;
+        
     })
     .catch((err)=>{
         console.error(err);
@@ -64,24 +82,33 @@ class App extends Component {
           error:"Something went terribly Wrong !! "
         })
 
-    })
+    });
+    
         
   }
 
   render() {
-    return (
-      <div className="container bg">
-      {this.state.flag ?
-           <div class="alert alert-danger" role="alert">
-            This is a danger alert—check it out!
-            </div> : ''}
+    let renderError= (<div class="alert alert-danger" role="alert">
+    {this.state.error}
+  </div> );
 
-        <ShowData datas={jsondata}  converter={this.renderConverter}/>
+    return (
+      <div className="container bd">
       
-        <div>
-        <button type="button" className="block" onClick={this.renderConverter} >
-        <span className="fa fa-download fa-3x icons"></span></button>
+      {this.state.flag ? {renderError}  : ''}
+      {this.state.loading ?
+      <Loading /> :
+
+      <div className="render">
+        <h1 className="white">React HTML2Image Converter</h1>
+          <ShowData datas={this.state.data}  converter={this.renderConverter} />
+        
+          <div>
+          <button type="button" className="block" onClick={this.renderConverter} >
+          <span className="fa fa-download fa-3x icons"></span></button>
+          </div>
         </div>
+      }
         
       </div>
     );

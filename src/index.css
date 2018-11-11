@@ -6,91 +6,171 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: monospace !important;
+  background: #240229 !important;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.white{
+  color: antiquewhite !important;
+}
+
+/* 
+loading animation  */
+.loadsBg{
+  
+   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.loads{
+  color: aliceblue;
+}
+
+.loader{
+  color: aliceblue;
+  position:relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(#14ffe9,#ffeb3b , #ff00e0);
+  animation: animate 0.5s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.loader span{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(#14ffe9,#ffeb3b , #ff00e0);
+
+}
+.loader span:nth-child(1){
+  filter:blur(5px);
+}
+.loader span:nth-child(2){
+  filter:blur(10px);
+}
+.loader span:nth-child(3){
+  filter:blur(25px);
+}
+.loader span:nth-child(4){
+  filter:blur(50px);
+}
+.loader:after{
+  content:'';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #240229;
+  border-radius:50%;
+
 }
 
 
-/*
- * Row with equal height columns
- * --------------------------------------------------
- */
- .row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}
-
-/*
- * Styles copied from the Grid example to make grid rows & columns visible.
- */
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-h4 {
-  margin-top: 25px;
-}
-.row {
+.render{
+  margin-top: 20px;
   margin-bottom: 20px;
 }
-.row .row {
-  margin-top: 10px;
-  margin-bottom: 0;
+
+.Aligner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
-[class*="col-"] {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #eee;
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid #ddd;
-  border: 1px solid rgba(86,61,124,.2);
+.card-wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width:450px;
+  border: 1px solid #D8F9FF;
+  padding: 30px;
+  background-color: #D8F9FF !important;
 }
 
-/*
- * Callout styles copied from Bootstrap's main docs.
- */
-/* Common styles for all types */
-.bs-callout {
-  padding: 20px;
-  margin: 20px 0;
-  border-left: 3px solid #eee;
+.logo{
+  margin-top:20px; 
+  max-width: 120px;
+  max-height: 60px;
 }
-.bs-callout h4 {
-  margin-top: 0;
-  margin-bottom: 5px;
+
+.cards{
+  background-color: #00A3FE !important;
+  border-radius: 12px !important;
+  color:#fff !important;
+  font-size: 14px ;
+  transform-style: preserve-3d !important;
+  transition: all 0.8 ease !important;
+
+  
 }
-.bs-callout p:last-child {
-  margin-bottom: 0;
+.cards:hover{
+  box-shadow: 2px 2px 2px 2px #53a7ea;
 }
-.bs-callout code {
-  background-color: #fff;
-  border-radius: 3px;
+
+
+.card-body{
+  padding: 10px !important;
 }
-/* Variations */
-.bs-callout-danger {
-  background-color: #fdf7f7;
-  border-color: #d9534f;
+
+.options{
+  
+  padding:10px;
+  margin-bottom: 0px;
 }
-.bs-callout-danger h4 {
-  color: #d9534f;
+.options > li{
+  list-style:none;
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.bs-callout-warning {
-  background-color: #fcf8f2;
-  border-color: #f0ad4e;
+
+.option{
+  margin-bottom: 10px;
 }
-.bs-callout-warning h4 {
-  color: #f0ad4e;
+.option > span{
+  
+  font-size: 12px;
+  padding: 5px;
+  background-color: #0491F3;
+  border-radius: 10px;
+  
 }
-.bs-callout-info {
-  background-color: #f4f8fa;
-  border-color: #5bc0de;
+/* button css */
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color:#0074D9;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition:all 0.3s ease;
 }
-.bs-callout-info h4 {
-  color: #5bc0de;
+.block:hover{
+  box-shadow:
+  2px 2px #53a7ea,
+  4px 4px #53a7ea,
+  5px 5px #53a7ea;
+-webkit-transform: translateX(-5px);
+transform: translateX(-5px);
 }
+
+.icons{
+  color:white;
+}
+

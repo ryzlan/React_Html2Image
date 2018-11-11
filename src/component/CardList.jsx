@@ -8,16 +8,19 @@ class CardList extends Component {
          const {id ,question } = this.props.data.question ;
          
         return (
-            <div className="col-6 col-md-4 row-eq-height bg-card">
-              <div id={id} ref={id} className="card cards" >
+            <div className="card-wrapper" id={id} ref={id}>
+              <div className="cards" >
+                <div className="card-body question">
+                    <p className="card-text questions">
+                    {question}
+                    </p>
+                </div>
+                <OptionsList  answers={this.props.data.answers}/>
+              </div>
+              <div>
+                <img className="logo" src={require('../img/logo.png')} alt="logo" />
+              </div>
               
-              <div className="card-body question">
-                <p className="card-text questions">
-                {question}
-                </p>
-              </div>
-              <OptionsList  answers={this.props.data.answers}/>
-              </div>
           </div>
         );
     }
