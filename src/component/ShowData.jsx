@@ -12,11 +12,16 @@ class ShowData extends Component {
 
     render() { 
         const renderdata = this.props.datas.map(this.CreateList);
+        
         return (
         <div className="Aligner">
 
-        {renderdata}
-        
+        {renderdata} 
+       
+        <div className="button_wrapper">
+          <button type="button" className="block" onClick={this.props.renderConverter} >
+          <span className="fa fa-download fa-3x icons"></span></button>
+        </div>
         </div>  
         );
     }
