@@ -34,9 +34,9 @@ class Main extends Component {
     
     
       renderConverter=()=>{
-        // this.setState({
-        //   loading:true
-        // })
+        this.setState({
+          loading:true
+        })
         let arr = [];
         this.props.data.forEach(element => {
           arr.push(element.question.id);
@@ -63,7 +63,9 @@ class Main extends Component {
                 download(data[i] , filename);
             }
     
-            
+            this.setState({
+                loading:false
+              })
             
         })
         .catch((err)=>{
